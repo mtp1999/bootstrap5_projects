@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "vazir";
+    src: url("../fonts/Vazir.ttf");
+}
+
+body {
+    font-family: "vazir" !important;
+}
+
+i {
+    display: inline-flex;
+}
+
+.icons {
+    padding: 1rem;
+    background-color: aliceblue;
+    color: blue;
+    border-radius: 1rem;
+}
+
+.bg-main {
+    background-color: rgb(20, 15, 70);
+}
+
+@media(min-width: 300px) and (max-width: 700px) {
+    .carousel-max-height {
+        height: 300px;
+    }
+}
+
+@media(min-width: 701px) and (max-width: 900px) {
+    .carousel-max-height {
+        height: 350px;
+    }
+}
+
+@media(min-width: 901px) and (max-width: 2000px) {
+    .carousel-max-height {
+        height: 600px;
+    }
+}
+
+footer {
+    background-color: #140f46;
+}
+
+input[type=password] {
+    direction: ltr;
+}
